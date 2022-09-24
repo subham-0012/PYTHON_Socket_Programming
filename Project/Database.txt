@@ -1,0 +1,8 @@
+create database if not exists hms;
+
+use hms;
+
+create table guest_det(Room_No varchar(5), Room_Type varchar(30), Name varchar(40), 
+Gender varchar(15), Contact varchar(10), Check_in_Date varchar(40), Check_out_Date varchar(40), 
+No_of_Days varchar(5), Nationality varchar(40), Date_of_Birth varchar(40), Email_id varchar(50),
+Identity varchar(30), Address varchar(40), Meal_Type varchar(30));
